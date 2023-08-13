@@ -171,6 +171,19 @@ a {
     margin-top: 70px;
 }
 
+.customer .logos a {
+    display: flex;
+    align-items: center;
+    height: 91px;
+    padding: 0 42px;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.customer .logos a:hover {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
 /* Guides */
 .guides {
     margin-top: 40px;
