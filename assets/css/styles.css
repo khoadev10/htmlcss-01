@@ -54,7 +54,15 @@ a {
 }
 
 /* Header */
-.header {
+.header-fixed {
+    position: sticky;
+    top: -20px;
+    padding-top: 20px;
+    background-color: #e6f0ff;
+    z-index: 9;
+}
+
+.hero-wrap {
     position: relative;
     background-color: #e6f0ff;
     height: 100vh;
@@ -63,7 +71,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -99,7 +107,7 @@ a {
 }
 
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero .info {
@@ -417,7 +425,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 9;
+    z-index: 1;
     width: 239px;
     padding: 45px 22px 40px;
     border-radius: 0px 0px 12px 12px;
