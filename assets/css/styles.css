@@ -63,7 +63,9 @@ a {
     z-index: 9;
 }
 
-.hero-wrap {
+.hero-wrap{
+    display: flex;
+    align-items: center;
     position: relative;
     background-color: #e6f0ff;
     height: calc(100vh - 90px);
@@ -107,22 +109,18 @@ a {
     margin-left: 18px;
 }
 
-.hero {
-    padding-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 50.36%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.01rem;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -130,7 +128,7 @@ a {
     line-height: 1.19;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5a6473;
     font-family: Poppins;
@@ -139,7 +137,7 @@ a {
     line-height: 1.78;
 }
 
-.hero .btn-hero {
+.hero-wrap .btn-hero {
     min-width: 170px;
     margin-top: 40px;
 }
